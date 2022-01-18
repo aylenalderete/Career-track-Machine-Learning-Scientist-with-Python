@@ -1,4 +1,4 @@
-![Diseño sin título](https://user-images.githubusercontent.com/70109524/150006013-f8adb763-dda3-4155-818e-f002ee3c6955.png)
+![Diseño sin título2](https://user-images.githubusercontent.com/70109524/150006214-11651020-157b-4680-adf0-e7e0ae856826.png)
 
 # Python-exercises
 
