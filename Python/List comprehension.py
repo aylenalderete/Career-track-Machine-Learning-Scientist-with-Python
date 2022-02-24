@@ -101,3 +101,23 @@ tweet_time = df['created_at']
 tweet_clock_time = [entry[11:19] for entry in tweet_time if entry[17:19] == '19']
 
 print(tweet_clock_time)
+
+
+# --------------------------
+# La sintáxis para filtrar con condicionales es
+# [ (elemento) ( for x in (iterable) ) ( if condicion ) ]
+
+# Donde "elemento" es lo que vayamos a guardar en la lista. Incluyendo un else:
+# [ (elemento) (if condicion else otro_elemento) ( for x in (iterable) ) ]
+
+# Pueden hacerse loops anidados:
+# [i for i in range(x) for j in range(y)]
+# ---------------------------
+
+# Dado el siguiente grupo de palabras, crear otra lista que contenga sólo la primera letra de cada una
+lista = ['a','ante','bajo','cabe','con']
+nueva_lista = [i[0] for i in lista]
+
+# Dada la siguiente frase, crear una lista con el largo de cada palabra.
+frase = 'Cambiar el mundo, amigo Sancho, no es ni utopía ni locura, es justicia'
+new_list = [len(i) for i in frase.replace(',', '').split()]
