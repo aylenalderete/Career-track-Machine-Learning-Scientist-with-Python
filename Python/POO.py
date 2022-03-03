@@ -8,8 +8,6 @@ class Sujeto():
         self.resultados = dict()
         
     def __repr__(self):
-        # Funcion mágica para mostrar los datos del sujeto
-        # el :<20 hace un relleno de máximo 20 espacios
         s = f'Datos de ID {self.id:<20}\n\n'
         for k, v in self.info.items():
             s += f"{k:<20} {v:<20}\n"
